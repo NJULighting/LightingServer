@@ -2,15 +2,11 @@ package nju.lighting.po;
 
 import java.util.ArrayList;
 
-public class AlertDocPO implements DocPO{
+public class AlertDocPO extends DocPO{
 
     private ArrayList<AlertDocItemPO> alertDocItems;
 
     private String reason;
-
-    private long time;
-
-    private String username;
 
     public ArrayList<AlertDocItemPO> getAlertDocItems() {
         return alertDocItems;
@@ -28,21 +24,6 @@ public class AlertDocPO implements DocPO{
         this.reason = reason;
     }
 
-    public long getTime() {
-        return time;
-    }
-
-    public void setTime(long time) {
-        this.time = time;
-    }
-
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
 }
 
 

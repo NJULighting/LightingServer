@@ -1,6 +1,6 @@
 package nju.lighting.po;
 
-public class LossAndGainItemPO implements DocItemPO {
+public class LossAndGainItemPO extends DocItemPO {
 
     private String commodityId;
 

@@ -6,8 +6,6 @@ public class RepositoryChangePO {
 
     public static final String SELL = "SELL";
 
-    private long time;
-
     private String changeType = BUY;
 
     private int count;
@@ -15,14 +13,6 @@ public class RepositoryChangePO {
     private String commodityId;
 
     private double amount;
-
-    public long getTime() {
-        return time;
-    }
-
-    public void setTime(long time) {
-        this.time = time;
-    }
 
     public String getChangeType() {
         return changeType;

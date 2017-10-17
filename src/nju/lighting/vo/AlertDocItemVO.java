@@ -6,6 +6,16 @@ public class AlertDocItemVO {
 
     private int count;
 
+    public boolean isHasFail() {
+        return hasFail;
+    }
+
+    public void setHasFail(boolean hasFail) {
+        this.hasFail = hasFail;
+    }
+
+    private boolean hasFail = false;
+
     public String getCommodityId() {
         return commodityId;
     }

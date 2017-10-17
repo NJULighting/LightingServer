@@ -1,6 +1,6 @@
 package nju.lighting.po;
 
-public class AlertDocItemPO implements DocItemPO{
+public class AlertDocItemPO extends DocItemPO{
 
     private String commodityId;
 
