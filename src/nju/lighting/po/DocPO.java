@@ -1,4 +1,4 @@
 package nju.lighting.po;
 
-public class TradePO {
+public interface DocPO {
 }

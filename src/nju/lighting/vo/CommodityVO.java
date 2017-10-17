@@ -1,9 +1,8 @@
-package nju.lighting.po;
+package nju.lighting.vo;
 
 import java.util.ArrayList;
 
-public class CommodityPO {
-
+public class CommodityVO {
     private String name;
 
     private String commodityType;
@@ -83,4 +82,5 @@ public class CommodityPO {
     public void setRecentTenSalePrice(ArrayList<Double> recentTenSalePrice) {
         this.recentTenSalePrice = recentTenSalePrice;
     }
+
 }

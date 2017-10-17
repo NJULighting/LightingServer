@@ -1,8 +1,8 @@
-package nju.lighting.po;
+package nju.lighting.vo;
 
 import java.util.ArrayList;
 
-public class CommodityCategoryPO {
+public class CommodityCategoryVO {
 
     public String getCategoryName() {
         return categoryName;
@@ -14,25 +14,25 @@ public class CommodityCategoryPO {
 
     private String categoryName;
 
-    private ArrayList<CommodityCategoryPO> subCategories;
+    private ArrayList<CommodityCategoryVO> subCategories;
 
-    private ArrayList<CommodityPO> subCommodities;
+    private ArrayList<CommodityVO> subCommodities;
 
     private boolean isLowestLeverCategory;
 
-    public ArrayList<CommodityCategoryPO> getSubCategories() {
+    public ArrayList<CommodityCategoryVO> getSubCategories() {
         return subCategories;
     }
 
-    public void setSubCategories(ArrayList<CommodityCategoryPO> subCategories) {
+    public void setSubCategories(ArrayList<CommodityCategoryVO> subCategories) {
         this.subCategories = subCategories;
     }
 
-    public ArrayList<CommodityPO> getSubCommodities() {
+    public ArrayList<CommodityVO> getSubCommodities() {
         return subCommodities;
     }
 
-    public void setSubCommodities(ArrayList<CommodityPO> subCommodities) {
+    public void setSubCommodities(ArrayList<CommodityVO> subCommodities) {
         this.subCommodities = subCommodities;
     }
 
